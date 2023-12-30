@@ -1,0 +1,395 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to right, blue, red);
+}
+
+/* login page */
+.loginform {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.loginh1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    opacity: 0.7;
+}
+
+.loginlabel {
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    opacity: 0.8;
+    text-shadow: 2px 2px 4px rgba(o, o, o, .2);
+}
+
+.logininput {
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    opacity: .8;
+}
+
+.loginbutton {
+    width: 50%;
+    margin: 3% auto;
+    color: white;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+    box-shadow: 3px 3px 5px rgba(31, 38, 135, 0.37);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.loginbutton:hover {
+    color: rgb(33, 9, 247);
+    text-decoration: underline;
+}
+
+.logina {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    opacity: .7;
+}
+
+.logina:hover {
+    color: rgb(33, 9, 247);
+    text-decoration: underline;
+}
+
+/*New_user_registration page*/
+.newreg {
+    width: 400px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.newh {
+    font-size: 25spx;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    opacity: 0.7;
+}
+
+.newlabel {
+    font-size: 15px;
+    color: white;
+    margin-left: 5%;
+    opacity: 0.8;
+    text-shadow: 2px 2px 4px rgba(o, o, o, .2);
+}
+
+.newinput {
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    opacity: .8;
+}
+
+.newbtn {
+    width: 50%;
+    margin: 3% auto;
+    color: white;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+    box-shadow: 3px 3px 5px rgba(31, 38, 135, 0.37);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.newbtn:hover {
+    color: rgb(33, 9, 247);
+    text-decoration: underline;
+    opacity: .7;
+}
+
+.newa {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    opacity: .7;
+    margin-bottom: 5%;
+}
+
+.newa:hover {
+    color: rgb(33, 9, 247);
+    text-decoration: underline;
+}
+
+/*registration_done page*/
+.donebody {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, blue, red);
+}
+
+.doneform {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.doneh1 {
+    font-size: 40spx;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    opacity: 0.7;
+}
+
+.donea {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    opacity: .7;
+}
+
+.donea:hover {
+    color: rgb(33, 9, 247);
+    text-decoration: underline;
+}
+
+/* forgot password page*/
+.forform {
+    width: 400px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.forh1 {
+    font-size: 25spx;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    opacity: 0.7;
+}
+
+.forlabel {
+    font-size: 15px;
+    color: white;
+    margin-left: 5%;
+    opacity: 0.8;
+    text-shadow: 2px 2px 4px rgba(o, o, o, .2);
+}
+
+.forinput {
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    opacity: .8;
+}
+
+.forbutton {
+    width: 50%;
+    margin: 3% auto;
+    color: white;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+    box-shadow: 3px 3px 5px rgba(31, 38, 135, 0.37);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.forbutton:hover {
+    color: rgb(33, 9, 247);
+    text-decoration: underline;
+}
+
+.fora {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    opacity: .7;
+}
+
+.fora:hover {
+    color: rgb(33, 9, 247);
+    text-decoration: underline;
+}
+
+/* code verification page*/
+.codeveriform {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.codeverih1 {
+    font-size: 25spx;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    opacity: 0.7;
+}
+
+.codeverilabel {
+    font-size: 15px;
+    color: white;
+    margin-left: 5%;
+    opacity: 0.8;
+    text-shadow: 2px 2px 4px rgba(o, o, o, .2);
+}
+
+.codeveriinput {
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    opacity: .8;
+}
+
+.codeveributton {
+    width: 50%;
+    margin: 3% auto;
+    color: white;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255, 255, 255, 0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+    box-shadow: 3px 3px 5px rgba(31, 38, 135, 0.37);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.codeveributton:hover {
+    color: rgb(33, 9, 247);
+    text-decoration: underline;
+}
+
+.codeveria {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    opacity: .7;
+}
+
+.codeveria:hover {
+    color: rgb(33, 9, 247);
+    text-decoration: underline;
+}
+
+/* password updated page*/
+.puform {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.puh1 {
+    font-size: 40spx;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 2px;
+    margin-top: 75px;
+    opacity: 0.7;
+}
+
+.pua {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    opacity: .7;
+}
+
+.pua:hover {
+    color: rgb(33, 9, 247);
+    text-decoration: underline;
+}
