@@ -11,6 +11,7 @@ Forgot_Password.html: Password reset form for users who've forgotten their passw
 Code_Verification.html: Form for code input during password reset or verification.
 Password_Update_Done.html: Confirmation page after updating the password.
 Logout.html: Interface to securely log out of the system.
+
 How to Use
 Clone the repository to your local machine.
 Open any of the HTML files in a web browser to interact with the authentication system.
